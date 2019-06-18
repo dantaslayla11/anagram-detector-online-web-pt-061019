@@ -11,9 +11,11 @@ class Anagram
    result = []
    array.each do |item|
      match_item = item.split("").sort
-      
+    if match_shit==match_item
+      result.push(item)
+    end
    end
-   
+   result
  end
  
  
