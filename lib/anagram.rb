@@ -6,6 +6,13 @@ class Anagram
    
  end 
  
+ def match(array)
+   match_shit = word.split("").sort
+   array.each do |item|
+     item.split("").sort
+   end
+   
+ end
  
  
 end  
